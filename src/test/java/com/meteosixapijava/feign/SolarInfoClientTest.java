@@ -1,7 +1,5 @@
-package com.meteosixapijava;
+package com.meteosixapijava.feign;
 
-import com.meteosixapijava.feign.PlaceClient;
-import com.meteosixapijava.feign.SolarInfoClient;
 import com.meteosixapijava.model.*;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;

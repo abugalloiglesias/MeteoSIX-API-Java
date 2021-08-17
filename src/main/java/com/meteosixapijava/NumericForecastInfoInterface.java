@@ -1,13 +1,13 @@
 package com.meteosixapijava;
 
-import com.meteosixapijava.feign.NumericForecastInfoClient;
-import com.meteosixapijava.model.DaysProperties;
-import com.meteosixapijava.util.DateUtils;
 import com.meteosixapijava.config.Config;
+import com.meteosixapijava.feign.NumericForecastInfoClient;
 import com.meteosixapijava.feign.PlaceClient;
+import com.meteosixapijava.model.DaysProperties;
 import com.meteosixapijava.model.Result;
 import com.meteosixapijava.model.ValuesVariable;
 import com.meteosixapijava.model.VariableType;
+import com.meteosixapijava.util.DateUtils;
 import feign.Feign;
 import feign.Logger;
 import feign.jackson.JacksonDecoder;

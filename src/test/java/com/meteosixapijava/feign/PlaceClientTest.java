@@ -1,8 +1,8 @@
-package com.meteosixapijava;
+package com.meteosixapijava.feign;
 
-import com.meteosixapijava.feign.NumericForecastInfoClient;
-import com.meteosixapijava.feign.PlaceClient;
-import com.meteosixapijava.model.*;
+import com.meteosixapijava.model.Feature;
+import com.meteosixapijava.model.PlaceProperties;
+import com.meteosixapijava.model.Result;
 import feign.Feign;
 import feign.jackson.JacksonDecoder;
 import feign.mock.HttpMethod;

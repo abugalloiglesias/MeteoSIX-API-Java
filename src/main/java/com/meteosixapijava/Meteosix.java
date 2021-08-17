@@ -2,8 +2,6 @@ package com.meteosixapijava;
 
 public class Meteosix implements IMeteosix {
 
-    private static final String METEOSIX_BASE_URL = "http://servizos.meteogalicia.es/apiv3/";
-
     private String apiKey;
 
     private PlaceInterface placeInterface;

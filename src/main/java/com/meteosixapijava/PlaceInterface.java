@@ -1,8 +1,8 @@
 package com.meteosixapijava;
 
 import com.meteosixapijava.config.Config;
-import com.meteosixapijava.model.PlaceProperties;
 import com.meteosixapijava.feign.PlaceClient;
+import com.meteosixapijava.model.PlaceProperties;
 import com.meteosixapijava.model.Result;
 import feign.Feign;
 import feign.Logger;

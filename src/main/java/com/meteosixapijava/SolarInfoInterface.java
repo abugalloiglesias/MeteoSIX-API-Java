@@ -1,11 +1,11 @@
 package com.meteosixapijava;
 
-import com.meteosixapijava.feign.SolarInfoClient;
-import com.meteosixapijava.model.SolarInfoVariable;
 import com.meteosixapijava.config.Config;
 import com.meteosixapijava.feign.PlaceClient;
+import com.meteosixapijava.feign.SolarInfoClient;
 import com.meteosixapijava.model.DaysProperties;
 import com.meteosixapijava.model.Result;
+import com.meteosixapijava.model.SolarInfoVariable;
 import feign.Feign;
 import feign.Logger;
 import feign.jackson.JacksonDecoder;
